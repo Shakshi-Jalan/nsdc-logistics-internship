@@ -33,3 +33,92 @@ Week 2 task Focuses on cleaning and preparing the Superstore dataset for further
 - Pandas
 - NumPy
 - Scikit-learn
+
+## Week 3 – Advanced Data Analysis and Visualization
+
+The Week 3 task focused on Exploratory Data Analysis (EDA), advanced analysis and visualization using Python.
+
+### Analysis Performed
+
+- Basic statistical analysis
+- Shipping performance by year
+- Shipping performance by Ship Mode
+- Shipping performance by Region
+- Discount vs Profit analysis
+- Correlation analysis
+- Data visualization
+
+### Key Findings
+
+- Overall average shipping time: **3.96 days**
+- Average shipping time was **4.20 days in 2014**.
+- Average shipping time decreased to **3.67 days in 2016**.
+- Average shipping time increased slightly to **3.84 days in 2017**.
+- Standard Class was the slowest shipping mode at **5.01 days**.
+- Same Day was the fastest shipping mode at approximately **0.04 days**.
+- Central had the highest average shipping time at **4.06 days**.
+- East had the lowest average shipping time at **3.91 days**.
+- Discount and Profit had a negative correlation of **-0.219**.
+- Sales and Profit had a positive correlation of **0.479**.
+- Shipping Days had very weak correlation with Sales and Profit.
+
+### Visualizations
+
+The following visualizations were created:
+
+1. Shipping Days Distribution
+2. Average Shipping Days by Year
+3. Shipping Performance by Ship Mode
+4. Shipping Performance by Region
+5. Discount vs Profit
+6. Correlation Heatmap
+
+### Python File
+
+`week3_analysis_visualization.py`
+
+### Visualization Folder
+
+`Week3_Visualizations/`
+
+---
+
+## Tools Used
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- VS Code
+- GitHub
+
+---
+
+## Dataset
+
+The analysis uses the Superstore retail dataset containing **9,994 records** with information about orders, customers, products, sales, profit, discounts and shipping.
+
+---
+
+## Project Structure
+
+```text
+nsdc-logistics-internship/
+│
+├── week1_logistics.py
+│
+├── week2_data_cleaning.py
+│
+├── week3_analysis_visualization.py
+│
+├── Week3_Visualizations/
+│   ├── 01_shipping_days_distribution.png
+│   ├── 02_average_shipping_by_year.png
+│   ├── 03_shipping_by_ship_mode.png
+│   ├── 04_shipping_by_region.png
+│   ├── 05_discount_vs_profit.png
+│   └── 06_correlation_heatmap.png
+│
+└── README.md
