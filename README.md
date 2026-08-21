@@ -77,12 +77,6 @@ The following visualizations were created:
 
 `week3_analysis_visualization.py`
 
-### Visualization Folder
-
-`Week3_Visualizations/`
-
----
-
 ## Tools Used
 
 - Python
@@ -93,32 +87,3 @@ The following visualizations were created:
 - Scikit-learn
 - VS Code
 - GitHub
-
----
-
-## Dataset
-
-The analysis uses the Superstore retail dataset containing **9,994 records** with information about orders, customers, products, sales, profit, discounts and shipping.
-
----
-
-## Project Structure
-
-```text
-nsdc-logistics-internship/
-│
-├── week1_logistics.py
-│
-├── week2_data_cleaning.py
-│
-├── week3_analysis_visualization.py
-│
-├── Week3_Visualizations/
-│   ├── 01_shipping_days_distribution.png
-│   ├── 02_average_shipping_by_year.png
-│   ├── 03_shipping_by_ship_mode.png
-│   ├── 04_shipping_by_region.png
-│   ├── 05_discount_vs_profit.png
-│   └── 06_correlation_heatmap.png
-│
-└── README.md
