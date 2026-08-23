@@ -87,3 +87,39 @@ The following visualizations were created:
 - Scikit-learn
 - VS Code
 - GitHub
+
+## Week 4 – Predictive Modeling and Optimization in Logistics Systems
+
+The Week 4 task focused on building predictive models to forecast shipping performance and using model insights to propose logistics optimization strategies.
+
+### Analysis Performed
+
+- Regression modeling to predict Shipping Days
+- Model comparison (Linear Regression, Decision Tree, Random Forest)
+- 5-fold cross-validation
+- Hyperparameter tuning using GridSearchCV
+- Feature importance analysis
+- Classification modeling to predict Slow Shipments (≥5 days)
+- Optimization simulation based on model insights
+
+### Key Findings
+
+- The tuned Random Forest model achieved an **R² of 0.672** and an **MAE of 0.819 days**.
+- **Ship Mode** was by far the most important feature for predicting shipping time, with Standard Class alone accounting for the majority of the model's predictive power.
+- The classification model for Slow Shipments achieved **71.7% accuracy** and **85% recall**.
+- The worst-performing combination was **West Region + Technology Category** under Standard Class, averaging **5.09 days**.
+- An optimization simulation showed that upgrading this worst-performing group could reduce the overall average shipping time from **3.958 to 3.893 days**.
+
+### Optimization Recommendations
+
+1. Monitor Standard Class shipments closely, since they have the strongest effect on shipping time.
+2. Use the classification model to flag potentially slow shipments early.
+3. Focus on poor-performing combinations such as West + Technology.
+4. Consider selective shipping upgrades for orders predicted to be slow.
+5. Retrain the model periodically as new logistics data becomes available.
+
+### Python File
+
+`week4_predictive_modeling.py`
+
+**Run:** `pip install pandas numpy scikit-learn` then `python week4_predictive_modeling.py`
