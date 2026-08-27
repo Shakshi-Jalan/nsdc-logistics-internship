@@ -1,4 +1,8 @@
 # Logistics Delivery and Shipping Performance Analysis
+A personal data analysis project exploring shipping and delivery performance 
+using the Superstore retail dataset — covering data cleaning, exploratory 
+analysis, visualization, and predictive modelling in Python.
+
 ## Week 1: Analysis
 Analyses shipping performance (average shipping days, ship mode, region) using the Superstore dataset (9,994 records).
 
